@@ -5,7 +5,7 @@ import requests
 r = requests.get('https://pypi.org')
 
 # Чтение ответов
-#print(r.text)
+print(r.text)
 
 # Использование заголовков запросов
 print(r.headers)           #информация о сервере, дата, кодировка и т.д.
